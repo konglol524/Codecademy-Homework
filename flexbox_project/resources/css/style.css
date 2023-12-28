@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Shippori+Mincho:wght@400;500;700&display=swap');
+
+html {
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  background-color: #060110;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  /* background-color: #282828; */
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 1rem
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+
+/* header */
+header {
+  margin: 1rem 2rem;
+}
+
+.nav {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav li {
+  margin: 0 1rem;
+  font-size: 2em;
+}
+
+.nav li a {
+  color: white;
+  text-decoration: underline;
+}
+
+
+/* banner */
+#banner {
+  height: 40rem;
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  background-image: url(../images/bus.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: solid white 1px;
+}
+
+#banner .content {
+  padding: 1rem 0;
+  background-color: #060110;
+}
+
+
+/* products */
+
+#products{
+  margin-bottom: 3rem;
+}
+
+.p_images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.p_img {
+  width: 20rem;
+  margin: 1rem 1rem;
+  border-radius: 0.5rem;
+  border: solid 0.1px red;
+}
+
+/* team */
+
+#team{
+  margin-bottom: 3rem;
+}
+
+.e_images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.employee{
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 25rem;
+  margin: 1rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid white;
+}
+
+.e_img {
+  width: 20rem;
+  margin: 1rem auto auto;
+  border-radius: 0.5rem;
+}
+
+.e_images .content {
+  color: white
+}
+
+/* footer */
+footer {
+  border: 1px solid white;
+  border-radius: 3rem;
+  border-bottom: #060110;
+  border-left: #060110;
+  border-right: #060110;
+}

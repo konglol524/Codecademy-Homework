@@ -1,0 +1,56 @@
+@media only screen and (max-width: 895px) {
+
+    .nav li {
+        font-size: 1em;
+        margin-bottom: 0.5em;
+    }
+
+    .nav {
+        flex-flow: column;
+    }
+
+    #banner {
+        margin: 1rem auto;
+        height: 30rem;
+    }
+
+    #products{
+        margin-bottom: 1rem;
+    }
+
+    #team{
+        margin-bottom: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+      
+    h2{
+        font-size: 1rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+        margin: 0.5rem
+    }    
+
+    .bar {
+        display: none;
+    }
+
+    .p_img, .e_img {
+        width: 15rem;
+    }
+
+    .employee {
+        width: 20rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+}
